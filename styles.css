@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+    background-color:rgb(23, 23, 47);
+    color: silver;
+}
+header{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.navbar h3{
+    color:silver;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 12px;
+    color: silver;
+    padding: 0px 10px;
+}
+.menu button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#0c8dc0;
+    border: 0px;
+}
+.menu button i{
+    background-color: #0c8dc0;
+    padding-left: 5px;
+}
+#sec-1{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#sec-1 .text{
+    margin-left: -50px;
+}
+#sec-1 h4{
+    color: #0c8dc0;
+    font-size: 12px;
+}
+#sec-1 h1{
+    padding-top: 30px;
+    padding-right: 500px;
+}
+#sec-2{
+    width: 50%;
+    margin: auto;
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#sec-2 .text{
+    margin-top: -100px;
+    margin-left: -250px;
+}
+#sec-2 .text p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 490px;
+    font-size: 14px;
+}
+#sec-2 img{
+    border: 3px solid bisque;
+    border-radius: 10px;
+}
+#sec-2 button{
+    background-color: #0c8dc0;
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;    
+}
+#sec-2 #learn-more{
+    background-color: rgb(23, 23, 47);
+    color: #0c8dc0;
+    border:1px solid #0c8dc0;
+}
+
+
+
